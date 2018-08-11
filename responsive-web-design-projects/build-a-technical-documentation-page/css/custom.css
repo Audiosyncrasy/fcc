@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header,
+h1,
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-style: italic;
+}
+
+#navbar {
+  width: 380px;
+  padding-bottom: 0.3rem;
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+.nav-link {
+  border-top: 1px solid grey;
+  margin: 0 1rem;
+}
+
+#main-doc {
+  width: 580px;
+  padding: 0 1rem;
+  margin-top: 0;
+  position: absolute;
+  left: 400px; /* 20 px gutter */
+  top: 1px;
+}
+
+.main-section {
+  margin: 5rem 0;
+}
+
+@media only screen and (max-width: 980px) {
+  #navbar {
+    position: unset;
+    border-right: 0;
+  }
+
+  #main-doc {
+    position: unset;
+    width: 100%;
+  }
+}
